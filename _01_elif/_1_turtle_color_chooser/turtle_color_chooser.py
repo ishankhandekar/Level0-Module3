@@ -35,7 +35,7 @@ if __name__ == '__main__':
         for i in range(4):
             turtle.forward(50)
             turtle.left(90)
-        output = choicebox("Do you want to draw another color?","Turtle Color Chooser",["yes","no"])
+        output = choicebox("Do you want to draw another color?","Turtle Color Chooser",["Yes","No"])
         if output == "No":
                 quit()
     #      5) Use an if/else statement to set the pen color that the user
